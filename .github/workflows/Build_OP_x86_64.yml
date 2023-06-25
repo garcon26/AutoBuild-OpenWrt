@@ -67,7 +67,6 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
         ./scripts/feeds install -f
-        ./scripts/feeds install -a
 
     #- name: Import external feeds - passwall
     #  working-directory: ./openwrt
